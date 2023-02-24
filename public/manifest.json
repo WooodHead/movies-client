@@ -1,0 +1,8 @@
+{
+  "name": "movie-client-project",
+  "version": "1.0.0",
+  "short_name": "wcp",
+  "description": "wcp (Next.js)",
+  "start_url": ".",
+  "icons": []
+}
