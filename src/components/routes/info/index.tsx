@@ -24,7 +24,7 @@ export default function MovieDetail() {
           {isLoading ? (
             <Skeleton
               style={{
-                background: 'rgba(248, 248, 248, 0.4);',
+                background: 'rgba(248, 248, 248, 0.4)',
                 marginBottom: 50,
               }}
               active

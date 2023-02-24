@@ -10,5 +10,5 @@ const MovieDetailPage: NextPageWithLayout = () => {
 
 export default MovieDetailPage;
 MovieDetailPage.getLayout = function getLayout(page: React.ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout title="Info Page">{page}</Layout>;
 };

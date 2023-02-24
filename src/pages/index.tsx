@@ -10,5 +10,5 @@ const HomePage: NextPageWithLayout = () => {
 
 export default HomePage;
 HomePage.getLayout = function getLayout(page: React.ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout title="Block Buster Film Review">{page}</Layout>;
 };

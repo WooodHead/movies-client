@@ -10,5 +10,5 @@ const SearchPage: NextPageWithLayout = () => {
 
 export default SearchPage;
 SearchPage.getLayout = function getLayout(page: React.ReactElement) {
-  return <Layout>{page}</Layout>;
+  return <Layout title="Search Page">{page}</Layout>;
 };
