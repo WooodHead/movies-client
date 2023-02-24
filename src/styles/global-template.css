@@ -3975,14 +3975,6 @@ h5 {
 h6 {
   font-size: 16px;
 }
-a {
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  color: #666;
-  border-bottom: 1px solid dotted;
-}
 a:hover {
   color: #020d18;
 }
@@ -4064,11 +4056,7 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-abbr[title] {
-  border-bottom: 1px dotted #eaeaea;
-  border-bottom: 1px dotted rgba(51, 51, 51, 0.1);
-  cursor: help;
-}
+
 mark,
 ins {
   background-color: #fff9c0;
@@ -4408,6 +4396,7 @@ ul {
   padding: 8px 15px;
   width: 110px;
   height: 38px;
+ 
   text-align: center;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -4631,6 +4620,8 @@ ul {
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 .movie-item-style-1 .hvr-inner a i {
   margin-right: 5px;

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Link from 'next/link';
 import { FaStar } from 'react-icons/fa';
+import { IoMdArrowDropright } from 'react-icons/io';
 
 import LazyLoadImage from '../images/lazy-load-image';
 import { MovieItem } from '@/models/movies';
@@ -20,7 +21,7 @@ export default function MovieItemGrid({ movie }: MovieItemGridProps) {
           {' '}
           <a>
             {' '}
-            Read more <i className="ion-android-arrow-dropright"></i>{' '}
+            Read more <IoMdArrowDropright size={20} />{' '}
           </a>
         </div>
       </Link>
