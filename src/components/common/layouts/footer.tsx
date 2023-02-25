@@ -1,14 +1,16 @@
 import React from 'react';
 
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="ht-footer">
       <div className="container">
         <div className="flex-parent-ft">
           <div className="flex-child-ft item1">
-            <a href="index-2.html">
+            <Link passHref href="/" legacyBehavior>
               <img className="logo" src="/images/logo1.png" alt="" />
-            </a>
+            </Link>
 
             <p>
               Call us: <a href="#">(+01) 202 342 6789</a>
